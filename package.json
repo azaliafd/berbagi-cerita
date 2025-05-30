@@ -1,15 +1,13 @@
 {
   "name": "berbagi-cerita",
-  "homepage": "https://azaliafd.github.io/berbagi-cerita",
+  "homepage": "https://berbagi-cerita.github.io/berbagi-cerita",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js && cp dist/index.html dist/404.html",
+    "build": "webpack --config webpack.prod.js",
     "serve": "http-server dist",
-    "build-serve": "npm run build && http-server dist",
-    "format": "prettier --write .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build-serve": "webpack --config webpack.prod.js && http-server dist",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "",
@@ -21,7 +19,6 @@
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^13.0.0",
     "css-loader": "^7.1.2",
-    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "http-server": "^14.1.1",
     "prettier": "^3.5.3",
