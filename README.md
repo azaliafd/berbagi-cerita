@@ -3,6 +3,19 @@
 Aplikasi berbagi cerita berbasis API yang dibangun menggunakan arsitektur **SPA (Single Page Application)** dan **MVP (Model-View-Presenter)**. Aplikasi ini terintegrasi dengan **Dicoding Story API**, menampilkan cerita dalam bentuk visual, lokasi, dan mendukung berbagai fitur interaktif seperti upload cerita dengan kamera dan lokasi.
 
 ---
+## Cara Menjalankan Proyek
+
+Ikuti langkah berikut untuk instalasi dan menjalankan aplikasi ini secara lokal:
+
+1. **Install dependencies**  
+   Jalankan perintah berikut untuk mengunduh semua package yang dibutuhkan:  
+   npm install
+2. **Build aplikasi**
+  Compile dan bundle kode sumber untuk produksi:
+  npm run build
+3. **Jalankan server lokal**
+  Serve hasil build yang ada di folder dist:
+  npm run serve
 
 ## 🚀 Fitur Utama
 
